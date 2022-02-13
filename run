@@ -290,7 +290,7 @@ def menu():
 			else:
 				os.system('clear')
 				###kasih def logo###
-				#print('license tidak tersedia')
+				print('')
 		except IOError:
 			os.system('rm -rf licensed.log')
 	else:
