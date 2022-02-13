@@ -4658,7 +4658,7 @@ def logo():
 	print ('\033[1;37m         _-----           _      ----')
 	print ('\033[1;37m _---             _------             \ ')
 	print ('\033[1;37m     ---__        ----                 \ ')
-	print ('\033[1;37m                 --_    |             __) ')
+	print ('\033[1;37m                 --_    |            __) ')
 	print ('\033[1;37m                     -                /     \ ')
 	print ('\033[1;37m          __-----    __--         \    /)\ ')
 	print ('\033[1;37m    -----__      ---_            \__/  /')
@@ -4681,7 +4681,7 @@ def keys():
 	print ('\n\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Lisensi : \x1b[96m' + id)
 	print ('\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Lisensi : \033[1;91mBelum Di konfirmasi\x1b[1;39m')
 	tod = input('\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Tekan ENTER untuk mengkonfirmasi')
-	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + id + ' >/dev/null') 
+	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong....??? Ini %20lisensi saya :%20' + id + ' >/dev/null') 
 	os.sys.exit()
 
 if "ANAK KONTOL, SAMA AJA MACAM HAKIKI" == anak_hakiki_ajg:
