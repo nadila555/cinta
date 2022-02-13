@@ -4656,7 +4656,7 @@ def keys():
 	idg.write(id)
 	idg.close()
 	print ('\n\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Lisensi : \x1b[96m' + id)
-	print ('\x1b[1;91m [*] Lisensi Belum Di konfirmasi\x1b[1;39m')
+	print ('\033[1;96m [\033[1;97m*\033[1;96m]\033[1;97m Lisensi Belum Di konfirmasi\x1b[1;39m')
 	print ('\033[1;97m Chat Admin Untuk Mengkonfirmasi Lisensi anda\x1b[1;39m')
 	tod = input(' Apakah anda ingin membeli lisensi y/t : ')
 	os.system('am start https://wa.me/+6287799183568?text=Hi+Ratu+Beli+Lisensi+dong.%20Lisensi:%20' + id + ' >/dev/null') 
