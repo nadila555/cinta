@@ -4673,6 +4673,7 @@ def logo():
 	print 
 	
 def keys():
+	logo()
 	id = uuid.uuid4().hex[:25]
 	idg = open('licensed.log', 'w')
 	idg.write(id)
