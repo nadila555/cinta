@@ -4652,8 +4652,8 @@ def cek_tgl():  # CHECK TANGGAL KONTOL
 ####NONTIFIKASI KONFIRMASI KEY#####
 def logo():
 	time.sleep (0.01)
-	print
-	print
+	print ('')
+	print ('')
 	print ('\033[1;37m                    ______---_____')
 	print ('\033[1;37m         ___-----           __      ----_')
 	print ('\033[1;37m ___---             ___------             \ ')
@@ -4670,7 +4670,7 @@ def logo():
 	print ('\033[1;36mGroup\033[1;37m   : \033[1;37mRATU ERROR            \33[0;1m\033[1;37m|  \_((_(_)|/(_) ')
 	print ('\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\             ( ')
 	print ('\033[1;36m¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤\033[1;37m\_____________) ')
-	print 
+	print ('')
 	
 def keys():
 	logo()
