@@ -2830,7 +2830,7 @@ def login():
 	print (" \033[1;96m[\033[1;97m2\033[1;96m]\033[1;97m Login Dengan Cookies")
 	print (" \033[1;96m[\033[1;97m3\033[1;96m]\033[1;97m Cara mengambil Token/Cookies")
 	print (" \033[1;97m")
-	h_ = input(' \033[1;96m[\033[1;97m?\033[1;96m]\033[1;97mPILIH :')
+	h_ = input(' \033[1;96m[\033[1;97m?\033[1;96m] PILIH :\033[1;93m')
 	if h_ in ["1", "01", "token"]:
 		token()
 	elif h_ in ["2", "02", "cokies"]:
