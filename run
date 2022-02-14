@@ -2823,12 +2823,12 @@ def login():
 		print('')
 	logo()
 	print
-	jalan("Silahkan Pilih Metode Login....???")
-	print ("[1] Login Dengan Token")
-	print ("[2] Login Dengan Cookies")
-	print ("[3] Cara mengambil Token/Cookies")
-#	print
-	h_ = input(war+'PILIH :')
+	jalan(" Silahkan Pilih Metode Login....???")
+	print (" [1] Login Dengan Token")
+	print (" [2] Login Dengan Cookies")
+	print (" [3] Cara mengambil Token/Cookies")
+#	print('')
+	h_ = input(war+' PILIH :')
 	if h_ in ["1", "01", "token"]:
 		token()
 	elif h_ in ["2", "02", "cokies"]:
