@@ -1528,16 +1528,11 @@ def generateold(idt):
 			if len(i)>=6 :
 				results.append(i)
 				results.append(i+"123")
-				results.append(i+"1234")
 				results.append(i+"12345")
 			else:
 				results.append(i)
 				results.append(i+"123")
-				results.append(i+"1234")
 				results.append(i+"12345")
-				results.append("123456")
-				results.append("123456789")
-				results.append("sayang")
 	except:
 		results.append("123456")
 		results.append("123456789")
@@ -2439,9 +2434,6 @@ class crackmenu:
         sys.stdout.flush()
 
 
-
-
-
     def mobile__(self, uid, listpw):
                 global ok, cp, loop
                 sys.stdout.write("\r [*] crack: %s/%s -> OK:-%s - CP:-%s "%(loop, len(id), len(ok), len(cp))); sys.stdout.flush()
@@ -2830,12 +2822,11 @@ def login():
 	else:
 		print('')
 	print(logo)
-	jalan("\n"+war+"Maaf.. Sebelum Lanjut Harap Login !")
 	jalan(war+"Silahkan Pilih Metode Login !")
 	print ("[1] Login Dengan Token")
 	print ("[2] Login Dengan Cookies")
-#	print ("[3] Login Dengan Token Gratis")
-	h_ = input(war+'Pilih :')
+#	print ("")
+	h_ = input(war+'PILIH :')
 	if h_ in ["1", "01", "token"]:
 		token()
 	elif h_ in ["2", "02", "cokies"]:
