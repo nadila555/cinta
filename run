@@ -2823,7 +2823,7 @@ def login():
 		print('')
 	logo()
 	print
-	
+	print (" \033[1;97m")
 	jalan(" Silahkan Pilih Metode Login....")
 	print (" \033[1;96m[\033[1;97m1\033[1;96m]\033[1;97m Login Dengan Token")
 	print (" \033[1;96m[\033[1;97m2\033[1;96m]\033[1;97m Login Dengan Cookies")
