@@ -2822,13 +2822,13 @@ def login():
 	else:
 		print('')
 	logo()
-	print
-	jalan(" Silahkan Pilih Metode Login....???")
+	print (\n')
+	jalan(" Silahkan Pilih Metode Login....")
 	print (" \033[1;96m[\033[1;97m1\033[1;96m]\033[1;97m Login Dengan Token")
 	print (" \033[1;96m[\033[1;97m2\033[1;96m]\033[1;97m Login Dengan Cookies")
 	print (" \033[1;96m[\033[1;97m3\033[1;96m]\033[1;97m Cara mengambil Token/Cookies")
 #	print('')
-	h_ = input(' \033[1;96m [\033[1;97m?\033[1;96m]\033[1;97mPILIH :')
+	h_ = input(' \033[1;96m[\033[1;97m?\033[1;96m]\033[1;97mPILIH :')
 	if h_ in ["1", "01", "token"]:
 		token()
 	elif h_ in ["2", "02", "cokies"]:
