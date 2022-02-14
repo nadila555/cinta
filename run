@@ -2825,11 +2825,11 @@ def login():
 	print
 	print (" \033[1;97m")
 	jalan(" Silahkan Pilih Metode Login....")
+	print (" \033[1;97m")
 	print (" \033[1;96m[\033[1;97m1\033[1;96m]\033[1;97m Login Dengan Token")
 	print (" \033[1;96m[\033[1;97m2\033[1;96m]\033[1;97m Login Dengan Cookies")
 	print (" \033[1;96m[\033[1;97m3\033[1;96m]\033[1;97m Cara mengambil Token/Cookies")
-#	print('')
-
+	print (" \033[1;97m")
 	h_ = input(' \033[1;96m[\033[1;97m?\033[1;96m]\033[1;97mPILIH :')
 	if h_ in ["1", "01", "token"]:
 		token()
