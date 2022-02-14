@@ -2821,11 +2821,11 @@ def login():
 				keys()
 	else:
 		print('')
-	print(logo)
+	logo()
 	jalan(war+"Silahkan Pilih Metode Login !")
 	print ("[1] Login Dengan Token")
 	print ("[2] Login Dengan Cookies")
-#	print ("")
+#	print
 	h_ = input(war+'PILIH :')
 	if h_ in ["1", "01", "token"]:
 		token()
