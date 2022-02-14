@@ -2822,12 +2822,14 @@ def login():
 	else:
 		print('')
 	logo()
-	print (\n')
+	print
+	
 	jalan(" Silahkan Pilih Metode Login....")
 	print (" \033[1;96m[\033[1;97m1\033[1;96m]\033[1;97m Login Dengan Token")
 	print (" \033[1;96m[\033[1;97m2\033[1;96m]\033[1;97m Login Dengan Cookies")
 	print (" \033[1;96m[\033[1;97m3\033[1;96m]\033[1;97m Cara mengambil Token/Cookies")
 #	print('')
+
 	h_ = input(' \033[1;96m[\033[1;97m?\033[1;96m]\033[1;97mPILIH :')
 	if h_ in ["1", "01", "token"]:
 		token()
@@ -2835,7 +2837,7 @@ def login():
 		coke()
 	elif h_ in ["3", "03", "cokies"]:
 		os.system("xdg-open https://www.youtube.com/watch?v=6XJdBTc7rf0&t=110s")
-	else:jalan(war+"Isi Dengan Benar Kontol");time.sleep(1);login()
+	else:jalan(war+"Isi Dengan Benar");time.sleep(1);login()
 def auto_token():
 	ba = 0
 	bi = 0
